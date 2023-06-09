@@ -1,0 +1,52 @@
+h1{
+    font-size: 2vw;
+    position: absolute;
+    font-style: italic;
+    color: white;
+    background: #e69500;
+    align-self: flex-start;
+
+}
+
+.quiz-window{
+    font-size: 1.5vw;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    /* border: 3px solid black; */
+    display:flex;
+    flex-flow: row wrap;
+
+
+
+
+}
+
+.question{
+    height: 25%;
+    width: 25%;
+    color: #e69500;
+    margin:auto;
+    background: #ffeecc;
+    border: solid black;
+    text-align: center;
+    justify-content: space-around;
+}
+
+html, body{
+    height: 96%;
+    margin: 1% 1% 1% 1%;
+}
+
+.bg-container{
+    height: 100%;
+    width: 100%;
+    background-image: url("wereldkaart.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    display:flex;
+
+}
+
+
